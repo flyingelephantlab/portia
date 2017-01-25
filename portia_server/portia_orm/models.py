@@ -817,7 +817,7 @@ class OriginalBody(Model):
     def load(cls, storage, instance=None, sample=None, **kwargs):
         html = super(OriginalBody, cls).load(
             storage, instance, sample=sample, **kwargs)
-        if html and sample:
+        if (html and not html.sample) and sample:
             html.sample = sample
         return html
 
@@ -838,7 +838,6 @@ class OriginalBody(Model):
         return data['html']
 
     class Meta:
-        owner = 'sample'
         raw = True
         single = True
         path = (u'spiders/{self.sample.spider.id}/{self.sample.id}/'
@@ -856,7 +855,7 @@ class RenderedBody(Model):
     def load(cls, storage, instance=None, sample=None, **kwargs):
         html = super(RenderedBody, cls).load(
             storage, instance, sample=sample, **kwargs)
-        if html and sample:
+        if (html and not html.sample) and sample:
             html.sample = sample
         return html
 
@@ -873,7 +872,6 @@ class RenderedBody(Model):
         }
 
     class Meta:
-        owner = 'sample'
         raw = True
         single = True
         ignore_if_missing = True
