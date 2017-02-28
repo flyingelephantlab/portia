@@ -20,7 +20,7 @@ To run Portia first time using Docker.
 Then everytime you made a change you need to build ember and run docker
     
     ember build [-e production]
-    docker run -i -t --rm -v <current-path>/portia/portia_server:/app/portia_server:rw -v <current-path>/portia/slyd:/app/slyd:rw -v <current-path>/portia/slybot:/app/slybot:rw -v <current-path>/portia/portiaui/dist:/app/portiaui/dist -p 9001:9001 portia
+    docker run -i -t --rm -v <current-path>/data:/app/slyd/slyd/data/projects:rw -v <current-path>/portia/portiaui/dist:/app/portiaui/dist -p 9001:9001 portia
    
 For more detailed instructions, and alternatives using Vagrant, see the [Installation](http://portia.readthedocs.org/en/latest/installation.html) docs.
 
