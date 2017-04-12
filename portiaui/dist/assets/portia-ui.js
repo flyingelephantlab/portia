@@ -44409,7 +44409,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portia-ui/app")["default"].create({"LOG_ACTIVE_GENERATION":true,"LOG_TRANSITIONS":true,"LOG_TRANSITIONS_INTERNAL":true,"LOG_VIEW_LOOKUPS":true,"name":"portia-ui","version":"2.0.0-alpha+1e0a74d1"});
+  require("portia-ui/app")["default"].create({"LOG_ACTIVE_GENERATION":true,"LOG_TRANSITIONS":true,"LOG_TRANSITIONS_INTERNAL":true,"LOG_VIEW_LOOKUPS":true,"name":"portia-ui","version":"2.0.0-alpha+e476c792"});
 }
 
 /* jshint ignore:end */
