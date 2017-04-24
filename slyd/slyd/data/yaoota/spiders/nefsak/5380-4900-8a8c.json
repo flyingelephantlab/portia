@@ -1,0 +1,200 @@
+{
+    "extractors": {}, 
+    "id": "5380-4900-8a8c", 
+    "name": "Groovy Chick Dual - Thermos Lunch Boxes Water", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "c987-48c2-a3ed", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": ".right_content_clmn", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".pr_title"
+                    ], 
+                    "container_id": "c987-48c2-a3ed", 
+                    "data": {
+                        "f247-44f8-ad95": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5c17-4c48-b1e6", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".right_content_clmn > .product-details > .pr_manuf_holder > table > tr > td:nth-child(1) > .pr_title,.right_content_clmn > .product-details > .pr_manuf_holder > table > tbody > tr > td:nth-child(1) > .pr_title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/*[contains(concat(\" \", @class, \" \"), \" pr_manuf_holder \")]/table/tr/td[1]/*[contains(concat(\" \", @class, \" \"), \" pr_title,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/*[contains(concat(\" \", @class, \" \"), \" pr_manuf_holder \")]/table/tbody/tr/td[1]/*[contains(concat(\" \", @class, \" \"), \" pr_title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#product_price"
+                    ], 
+                    "container_id": "c987-48c2-a3ed", 
+                    "data": {
+                        "2eda-4c62-8bff": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a44c-436b-bc2b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > .product-options > .property-value > table > tr > td > .product-price-value > .currency > span,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > .product-options > .property-value > table > tr > td > .product-price-value > .currency > span,.right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .product-options > .property-value > table > tr > td > .product-price-value > .currency > span,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .product-options > .property-value > table > tr > td > .product-price-value > .currency > span,.right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > .product-options > .property-value > table > tbody > tr > td > .product-price-value > .currency > span,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > .product-options > .property-value > table > tbody > tr > td > .product-price-value > .currency > span,.right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .product-options > .property-value > table > tbody > tr > td > .product-price-value > .currency > span,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .product-options > .property-value > table > tbody > tr > td > .product-price-value > .currency > span", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" product-options \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/td/*[contains(concat(\" \", @class, \" \"), \" product-price-value \")]/*[contains(concat(\" \", @class, \" \"), \" currency \")]/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".big-button1 > .button-right > .button-left"
+                    ], 
+                    "container_id": "c987-48c2-a3ed", 
+                    "data": {
+                        "a39a-485e-a1d7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a0df-4488-b80f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > .pr_page_quantity_row > .property-value > table > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > .pr_page_quantity_row > .property-value > table > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left,.right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .pr_page_quantity_row > .property-value > table > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .pr_page_quantity_row > .property-value > table > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left,.right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > .pr_page_quantity_row > .property-value > table > tbody > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > .pr_page_quantity_row > .property-value > table > tbody > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left,.right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .pr_page_quantity_row > .property-value > table > tbody > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > .pr_page_quantity_row > .property-value > table > tbody > tr > .clmn2 > .product_avail_block > .pr_page_add_to_cart > .button > .button-right > .button-left", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/*[contains(concat(\" \", @class, \" \"), \" pr_page_quantity_row \")]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" clmn2 \")]/*[contains(concat(\" \", @class, \" \"), \" product_avail_block \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_add_to_cart \")]/*[contains(concat(\" \", @class, \" \"), \" button \")]/*[contains(concat(\" \", @class, \" \"), \" button-right \")]/*[contains(concat(\" \", @class, \" \"), \" button-left \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#product_code"
+                    ], 
+                    "container_id": "c987-48c2-a3ed", 
+                    "data": {
+                        "a588-4557-a5ea": {
+                            "attribute": "text-content", 
+                            "extractors": {}, 
+                            "field": "2703-4568-b087", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b6f7-49ec-8d18", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > tr:nth-child(8) > .property-value,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > tr:nth-child(8) > .property-value,.right_content_clmn > .product-details > table > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > tr:nth-child(8) > .property-value,.right_content_clmn > .product-details > table > tbody > tr > .pr_page_right_clmn > .details > form > .product-properties > tbody > tr:nth-child(8) > .property-value", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tr[8]/*[contains(concat(\" \", @class, \" \"), \" property-value,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tr[8]/*[contains(concat(\" \", @class, \" \"), \" property-value,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/tr[8]/*[contains(concat(\" \", @class, \" \"), \" property-value,.right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/*[contains(concat(\" \", @class, \" \"), \" pr_page_right_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" details \")]/form/*[contains(concat(\" \", @class, \" \"), \" product-properties \")]/tbody/tr[8]/*[contains(concat(\" \", @class, \" \"), \" property-value \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#product_thumbnail"
+                    ], 
+                    "container_id": "c987-48c2-a3ed", 
+                    "data": {
+                        "fa5d-448f-ae9f": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "15f8-4f67-b519", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2fbe-40df-a3ba", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".right_content_clmn > .product-details > table > tr > td:nth-child(1) > .pr_img_holder > .pr_img_thumb > img,.right_content_clmn > .product-details > table > tbody > tr > td:nth-child(1) > .pr_img_holder > .pr_img_thumb > img", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tr/td[1]/*[contains(concat(\" \", @class, \" \"), \" pr_img_holder \")]/*[contains(concat(\" \", @class, \" \"), \" pr_img_thumb \")]//*[contains(concat(\" \", @class, \" \"), \" product-details \")]/table/tbody/tr/td[1]/*[contains(concat(\" \", @class, \" \"), \" pr_img_holder \")]/*[contains(concat(\" \", @class, \" \"), \" pr_img_thumb \")]/img"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#location_area"
+                    ], 
+                    "container_id": "c987-48c2-a3ed", 
+                    "data": {
+                        "e5cd-4bda-8fda": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fa2-411c-b78e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7df3-44c5-a596", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".right_content_clmn > .location_area", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" location_area \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "p:nth-child(9)"
+                    ], 
+                    "container_id": "c987-48c2-a3ed", 
+                    "data": {
+                        "200b-4efb-ae29": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f110-4bde-94d8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5634-48d6-8e7f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".right_content_clmn > .pr_page_tabs > .custom_tabs > .ui-tabs > div:nth-child(2) > .pr_page_desc > p:nth-child(9)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" right_content_clmn \")]/*[contains(concat(\" \", @class, \" \"), \" pr_page_tabs \")]/*[contains(concat(\" \", @class, \" \"), \" custom_tabs \")]/*[contains(concat(\" \", @class, \" \"), \" ui-tabs \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" pr_page_desc \")]/p[9]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "nefsak", 
+    "url": "https://www.nefsak.com/Groovy-Chick-Dual-Thermos.html", 
+    "version": "0.13.0b32"
+}

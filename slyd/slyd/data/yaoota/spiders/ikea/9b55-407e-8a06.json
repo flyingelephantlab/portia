@@ -1,0 +1,130 @@
+{
+    "extractors": {}, 
+    "id": "9b55-407e-8a06", 
+    "name": "BVE LED ceiling track -spots - IKEA", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "5aaf-4da4-95e6", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": "#rightNavContainer", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#type"
+                    ], 
+                    "container_id": "5aaf-4da4-95e6", 
+                    "data": {
+                        "30e5-4415-b253": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "802b-40cb-8af9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#rightNavContainer > .rightInfoDiv > div:nth-child(2) > div > h1 > .productType", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"rightNavContainer\"]/*[contains(concat(\" \", @class, \" \"), \" rightInfoDiv \")]/div[2]/div/h1/*[contains(concat(\" \", @class, \" \"), \" productType \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#name"
+                    ], 
+                    "container_id": "5aaf-4da4-95e6", 
+                    "data": {
+                        "acf9-40ae-a1c0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "da40-480b-bb8a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "61fd-49a0-8dc2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#rightNavContainer > .rightInfoDiv > div:nth-child(2) > div > h1 > .productName", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"rightNavContainer\"]/*[contains(concat(\" \", @class, \" \"), \" rightInfoDiv \")]/div[2]/div/h1/*[contains(concat(\" \", @class, \" \"), \" productName \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#price1"
+                    ], 
+                    "container_id": "5aaf-4da4-95e6", 
+                    "data": {
+                        "ee42-45b4-8948": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bae6-4b4e-b41f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#rightNavContainer > .rightInfoDiv > div:nth-child(2) > div > .priceContainer > .piecesHidden > .packagePrice", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"rightNavContainer\"]/*[contains(concat(\" \", @class, \" \"), \" rightInfoDiv \")]/div[2]/div/*[contains(concat(\" \", @class, \" \"), \" priceContainer \")]/*[contains(concat(\" \", @class, \" \"), \" piecesHidden \")]/*[contains(concat(\" \", @class, \" \"), \" packagePrice \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#jsButton_saveToList_lnk"
+                    ], 
+                    "container_id": "5aaf-4da4-95e6", 
+                    "data": {
+                        "710a-4bb9-92c4": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5232-4d23-80dd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [
+                        "#jsButton_saveToList_lnk > input"
+                    ], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#rightNavContainer > .marginForCartConatiner > form > ul > .butContainerWidth > .buttonMar > div > .buttonContainer > .orangeBtn", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"rightNavContainer\"]/*[contains(concat(\" \", @class, \" \"), \" marginForCartConatiner \")]/form/ul/*[contains(concat(\" \", @class, \" \"), \" butContainerWidth \")]/*[contains(concat(\" \", @class, \" \"), \" buttonMar \")]/div/*[contains(concat(\" \", @class, \" \"), \" buttonContainer \")]/*[contains(concat(\" \", @class, \" \"), \" orangeBtn \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "ikea", 
+    "url": "http://www.ikea.com/eg/en/catalog/products/10340457/", 
+    "version": "0.13.0b32"
+}

@@ -54,7 +54,7 @@
                 "id": "421f-4487-a4eb", 
                 "name": "specs", 
                 "required": false, 
-                "type": "text", 
+                "type": "safe html", 
                 "vary": false
             }, 
             "7dba-4300-9b51": {
@@ -157,10 +157,5 @@
             }
         }, 
         "name": "kipp"
-    }, 
-    "ecf5-45d3-b5bc": {
-        "auto_created": true, 
-        "fields": {}, 
-        "name": "Diamond Cellular Micellar Solution Cleanser Cle"
     }
 }

@@ -1,0 +1,296 @@
+{
+    "extractors": {}, 
+    "id": "d2aa-4777-a0e1", 
+    "name": "Nikon AF-S NIKKOR mm fG - Shutter Shop", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "f1c0-4049-aa43", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": "#product-350", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".product_title"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "b10d-4c14-8ebb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "784b-4512-bb3f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .summary > .product_title", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".sku"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "5cbb-44a9-b986": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2703-4568-b087", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "73de-4985-b72d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .summary > .product_meta > .sku_wrapper > .sku", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" sku_wrapper \")]/*[contains(concat(\" \", @class, \" \"), \" sku \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "p.price > .woocommerce-Price-amount"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "6ee1-4092-a68c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "dd75-4e08-87f2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .summary > div:nth-child(2) > .price > .woocommerce-Price-amount", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" price \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Price-amount \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".single_add_to_cart_button"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "8f1e-496d-b94d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ec52-492e-84d6", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .summary > .cart > .single_add_to_cart_button", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" cart \")]/*[contains(concat(\" \", @class, \" \"), \" single_add_to_cart_button \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".posted_in > a"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "2199-4196-ae3f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fa2-411c-b78e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "425c-4161-9143", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .summary > .product_meta > .posted_in > a", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" posted_in \")]/a"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".wb-posted_in:nth-child(4) > a"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "e6fc-4e96-b094": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "da40-480b-bb8a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0851-4fad-a44c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .summary > .product_meta > .wb-posted_in > a", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" wb-posted_in \")]/a"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".attachment-shop_single"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "f16e-4f15-82b4": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "15f8-4f67-b519", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bf5d-4793-99cb", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .images > .woocommerce-main-image > .attachment-shop_single", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" images \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-main-image \")]/*[contains(concat(\" \", @class, \" \"), \" attachment-shop_single \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a.first > .attachment-shop_thumbnail"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "9721-410f-8c2f": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "7dba-4300-9b51", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0358-44bd-a794", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .images > .thumbnails > .first > .attachment-shop_thumbnail", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" images \")]/*[contains(concat(\" \", @class, \" \"), \" thumbnails \")]/*[contains(concat(\" \", @class, \" \"), \" first \")]/*[contains(concat(\" \", @class, \" \"), \" attachment-shop_thumbnail \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".summary > div:nth-child(5) > p"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "166f-4bda-ba0a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "913f-404e-9399", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3de7-4986-98dd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .summary > div:nth-child(5) > p", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/div[5]/p"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#tab-description"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "7424-4356-adea": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f110-4bde-94d8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "03f3-4ad7-aec1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .woocommerce-tabs > .woocommerce-Tabs-panel--description", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-tabs \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Tabs-panel--description \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#tab-specifications"
+                    ], 
+                    "container_id": "f1c0-4049-aa43", 
+                    "data": {
+                        "d09c-4a29-87bb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "421f-4487-a4eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "dee1-400c-88fe", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#product-350 > .woocommerce-tabs > .woocommerce-Tabs-panel--specifications", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"product-350\"]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-tabs \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Tabs-panel--specifications \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "shutter-shop", 
+    "url": "https://shuttershopegypt.com/shop-2/nikon-35mm-f1-4g-af-s/", 
+    "version": "0.13.0b32"
+}

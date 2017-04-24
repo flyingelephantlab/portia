@@ -1,0 +1,296 @@
+{
+    "extractors": {}, 
+    "id": "b9c7-4a22-9d13", 
+    "name": "Canon EOS D Mark IV - Shutter Shop", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "7180-4a78-a312", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": "#content > .col-full", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".woocommerce-breadcrumb > a:nth-child(3)"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "e02e-46bf-9011": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fa2-411c-b78e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "cb15-464b-9e80", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .woocommerce-breadcrumb > a:nth-child(3)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-breadcrumb \")]/a[3]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".product_title"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "a8cf-4a73-9b42": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9032-454e-9f3e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .summary > .product_title", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "p.price > .woocommerce-Price-amount"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "a1cf-45a3-b531": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "961a-4326-88a5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .summary > div:nth-child(2) > .price > .woocommerce-Price-amount", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" price \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Price-amount \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".attachment-shop_single"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "47e9-4b1c-86c1": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "15f8-4f67-b519", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f8e2-49a1-84c1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .images > .woocommerce-main-image > .attachment-shop_single", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" images \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-main-image \")]/*[contains(concat(\" \", @class, \" \"), \" attachment-shop_single \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".single_add_to_cart_button"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "82f3-419e-9580": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "972d-4a3a-a7ce", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .summary > .cart > .single_add_to_cart_button", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" cart \")]/*[contains(concat(\" \", @class, \" \"), \" single_add_to_cart_button \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".sku"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "448e-4cec-8012": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2703-4568-b087", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fcc3-4bcd-abc8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .summary > .product_meta > .sku_wrapper > .sku", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" sku_wrapper \")]/*[contains(concat(\" \", @class, \" \"), \" sku \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#tab-description"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "5de4-485e-9501": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f110-4bde-94d8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "223b-4d4b-b7c4", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .woocommerce-tabs > .woocommerce-Tabs-panel--description", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-tabs \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Tabs-panel--description \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".summary > div:nth-child(5) > p"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "5bfe-4751-b18f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "913f-404e-9399", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "27aa-4b44-ae1e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .summary > div:nth-child(5) > p", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/div[5]/p"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#tab-specifications"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "d666-4650-bf7a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "421f-4487-a4eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6996-4130-ae73", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .woocommerce-tabs > .woocommerce-Tabs-panel--specifications", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-tabs \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Tabs-panel--specifications \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a.first:nth-child(1) > .attachment-shop_thumbnail"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "f5bd-4a0a-bbf9": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "7dba-4300-9b51", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "95f2-41cc-ab90", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .images > .thumbnails > a:nth-child(1) > .attachment-shop_thumbnail", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" images \")]/*[contains(concat(\" \", @class, \" \"), \" thumbnails \")]/a[1]/*[contains(concat(\" \", @class, \" \"), \" attachment-shop_thumbnail \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".wb-posted_in:nth-child(4) > a"
+                    ], 
+                    "container_id": "7180-4a78-a312", 
+                    "data": {
+                        "7ec6-4fe7-bf04": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "da40-480b-bb8a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7842-4bdd-877a", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-570 > .summary > .product_meta > .wb-posted_in > a", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-570 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" wb-posted_in \")]/a"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "shutter-shop", 
+    "url": "https://shuttershopegypt.com/shop-2/canon-eos-5d-mark-iv/", 
+    "version": "0.13.0b32"
+}

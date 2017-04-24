@@ -1,0 +1,248 @@
+{
+    "extractors": {}, 
+    "id": "a0fb-47a2-be05", 
+    "name": "Buy Best Price Samsung Galaxy S I GB G Marble Wh", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "03f4-4318-964d", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": ".main", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "3aa6-43a7-93ef": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bc58-4fcd-9b79", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .ng-pristine > .product-name > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" ng-pristine \")]/*[contains(concat(\" \", @class, \" \"), \" product-name \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#div_availability"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "b01b-426d-acc5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f9b3-447e-a040", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .ng-pristine > .product-shop > .shop-col1 > .right-border-container > .add-to-cart-wrapper > div:nth-child(1)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" ng-pristine \")]/*[contains(concat(\" \", @class, \" \"), \" product-shop \")]/*[contains(concat(\" \", @class, \" \"), \" shop-col1 \")]/*[contains(concat(\" \", @class, \" \"), \" right-border-container \")]/*[contains(concat(\" \", @class, \" \"), \" add-to-cart-wrapper \")]/div[1]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#image-main"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "e31c-4529-b617": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "15f8-4f67-b519", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "47e7-4a07-a089", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .ng-pristine > .product-img-box > .product-image > .product-image-gallery > .visible", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" ng-pristine \")]/*[contains(concat(\" \", @class, \" \"), \" product-img-box \")]/*[contains(concat(\" \", @class, \" \"), \" product-image \")]/*[contains(concat(\" \", @class, \" \"), \" product-image-gallery \")]/*[contains(concat(\" \", @class, \" \"), \" visible \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".price-box:nth-child(1) > #product-price-138 > .price"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "6084-4b52-94f0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e98a-4709-b320", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .ng-pristine > .product-shop > .shop-col1 > .price-info > .price-box > .regular-price > .price", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" ng-pristine \")]/*[contains(concat(\" \", @class, \" \"), \" product-shop \")]/*[contains(concat(\" \", @class, \" \"), \" shop-col1 \")]/*[contains(concat(\" \", @class, \" \"), \" price-info \")]/*[contains(concat(\" \", @class, \" \"), \" price-box \")]/*[contains(concat(\" \", @class, \" \"), \" regular-price \")]/*[contains(concat(\" \", @class, \" \"), \" price \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".product-image-thumbs > li:nth-child(1) > .thumb-link > img"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "feda-4bdf-ae91": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "7dba-4300-9b51", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9458-48ec-b65c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .ng-pristine > .product-img-box > .more-views > .product-image-thumbs > li:nth-child(1) > .thumb-link > img", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" ng-pristine \")]/*[contains(concat(\" \", @class, \" \"), \" product-img-box \")]/*[contains(concat(\" \", @class, \" \"), \" more-views \")]/*[contains(concat(\" \", @class, \" \"), \" product-image-thumbs \")]/li[1]/*[contains(concat(\" \", @class, \" \"), \" thumb-link \")]/img"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".category3 > a > span"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "0085-4dbd-8dff": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fa2-411c-b78e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7337-40d7-a2e8", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .breadcrumbs > ul > .category3 > a > span", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" breadcrumbs \")]/ul/*[contains(concat(\" \", @class, \" \"), \" category3 \")]/a/span"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".std:nth-child(1)"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "5e36-43c6-98af": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "913f-404e-9399", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d543-41c3-91d5", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .ng-pristine > .product-shop > .shop-col1 > .short-description > .std", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" ng-pristine \")]/*[contains(concat(\" \", @class, \" \"), \" product-shop \")]/*[contains(concat(\" \", @class, \" \"), \" shop-col1 \")]/*[contains(concat(\" \", @class, \" \"), \" short-description \")]/*[contains(concat(\" \", @class, \" \"), \" std \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".std:nth-child(5)"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "2f99-42b5-a852": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f110-4bde-94d8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b036-4e02-ba06", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .std", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" std \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#product-attribute-specs-table"
+                    ], 
+                    "container_id": "03f4-4318-964d", 
+                    "data": {
+                        "c667-418a-b423": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "421f-4487-a4eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ce82-4856-8c02", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".main > .col-main > .product-view > .product-essential > .data-table", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" main \")]/*[contains(concat(\" \", @class, \" \"), \" col-main \")]/*[contains(concat(\" \", @class, \" \"), \" product-view \")]/*[contains(concat(\" \", @class, \" \"), \" product-essential \")]/*[contains(concat(\" \", @class, \" \"), \" data-table \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "crazydeals", 
+    "url": "http://www.crazydeals.com/mobiles-and-accessories/mobiles/samsung-galaxy-s3-i9300-16gb-3g-marble-white", 
+    "version": "0.13.0b32"
+}
