@@ -1,0 +1,200 @@
+{
+    "extractors": {}, 
+    "id": "ecc1-4f8a-b511", 
+    "name": "Snokor Rocket Z- IPS Display Quad-ProcessorGB R", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "414b-4a7d-8062", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": "body", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".name > h1"
+                    ], 
+                    "container_id": "414b-4a7d-8062", 
+                    "data": {
+                        "5291-49c3-9c4a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "93d9-4dcc-b318", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "body > .pr > .ncs-detail > .ncs-goods-summary > .name > h1", 
+                    "tagid": null, 
+                    "xpath": "//body/*[contains(concat(\" \", @class, \" \"), \" pr \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-detail \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-summary \")]/*[contains(concat(\" \", @class, \" \"), \" name \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".nch-breadcrumb"
+                    ], 
+                    "container_id": "414b-4a7d-8062", 
+                    "data": {
+                        "7083-4ad6-97a8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fa2-411c-b78e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fb0b-40db-bad2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "body > .nch-breadcrumb-layout > .nch-breadcrumb", 
+                    "tagid": null, 
+                    "xpath": "//body/*[contains(concat(\" \", @class, \" \"), \" nch-breadcrumb-layout \")]/*[contains(concat(\" \", @class, \" \"), \" nch-breadcrumb \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".price:nth-child(2) > strong"
+                    ], 
+                    "container_id": "414b-4a7d-8062", 
+                    "data": {
+                        "dc74-4e01-b0f6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ba18-4146-a2f2", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "body > .pr > .ncs-detail > .ncs-goods-summary > .ncs-meta > .dl-price > .price > strong", 
+                    "tagid": null, 
+                    "xpath": "//body/*[contains(concat(\" \", @class, \" \"), \" pr \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-detail \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-summary \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-meta \")]/*[contains(concat(\" \", @class, \" \"), \" dl-price \")]/*[contains(concat(\" \", @class, \" \"), \" price \")]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".cloudzoom"
+                    ], 
+                    "container_id": "414b-4a7d-8062", 
+                    "data": {
+                        "7d15-417c-b04d": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "15f8-4f67-b519", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "985e-4dcd-a141", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "body > .pr > .ncs-detail > .ncs-goods-picture > .gallery_wrap > .gallery > .lazyload", 
+                    "tagid": null, 
+                    "xpath": "//body/*[contains(concat(\" \", @class, \" \"), \" pr \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-detail \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-picture \")]/*[contains(concat(\" \", @class, \" \"), \" gallery_wrap \")]/*[contains(concat(\" \", @class, \" \"), \" gallery \")]/*[contains(concat(\" \", @class, \" \"), \" lazyload \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#ncs-freight-prompt > strong"
+                    ], 
+                    "container_id": "414b-4a7d-8062", 
+                    "data": {
+                        "2119-4b72-8758": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fc28-4e21-8ad1", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "body > .pr > .ncs-detail > .ncs-goods-summary > .ncs-logistics > .ncs-freight > .ncs-freight_box > div:nth-child(2) > strong", 
+                    "tagid": null, 
+                    "xpath": "//body/*[contains(concat(\" \", @class, \" \"), \" pr \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-detail \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-summary \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-logistics \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-freight \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-freight_box \")]/div[2]/strong"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".controller > ul > .current > .lazyload"
+                    ], 
+                    "container_id": "414b-4a7d-8062", 
+                    "data": {
+                        "81a0-423f-86a0": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "7dba-4300-9b51", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4d8a-4b3d-a468", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "body > .pr > .ncs-detail > .ncs-goods-picture > .controller_wrap > .controller > ul > .current > .lazyload", 
+                    "tagid": null, 
+                    "xpath": "//body/*[contains(concat(\" \", @class, \" \"), \" pr \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-detail \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-picture \")]/*[contains(concat(\" \", @class, \" \"), \" controller_wrap \")]/*[contains(concat(\" \", @class, \" \"), \" controller \")]/ul/*[contains(concat(\" \", @class, \" \"), \" current \")]/*[contains(concat(\" \", @class, \" \"), \" lazyload \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#ncGoodsIntro > .ncs-goods-info-content > .default"
+                    ], 
+                    "container_id": "414b-4a7d-8062", 
+                    "data": {
+                        "a33f-4107-8d15": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f110-4bde-94d8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "247a-4b43-926e", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "body > .pr > .ncs-goods-layout > .ncs-goods-main > .ncs-intro > .content > .ncs-goods-info-content > .default", 
+                    "tagid": null, 
+                    "xpath": "//body/*[contains(concat(\" \", @class, \" \"), \" pr \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-layout \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-main \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-intro \")]/*[contains(concat(\" \", @class, \" \"), \" content \")]/*[contains(concat(\" \", @class, \" \"), \" ncs-goods-info-content \")]/*[contains(concat(\" \", @class, \" \"), \" default \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "kilimall", 
+    "url": "http://www.kilimall.co.ke/item-391289-snokor-e2-80-93-rocket-z5000-5-e2-80-9d-ips-display-2c-q-2auad-processor-2c1gb-ram-2b8gb-rom-2c5mp-2b2mp-camera-2c3600-mah-black.html", 
+    "version": "0.13.0b32"
+}

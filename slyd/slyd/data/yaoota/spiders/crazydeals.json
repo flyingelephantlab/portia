@@ -1,0 +1,43 @@
+{
+    "allowed_domains": [], 
+    "arabic_cookie_name": "", 
+    "arabic_cookie_value": "", 
+    "arabic_url": "http://www.crazydeals.com/", 
+    "arabic_url_args": "___store=arabic", 
+    "country_code": "ae", 
+    "currency_code": "AED", 
+    "currency_cookie_name": "", 
+    "currency_cookie_value": "", 
+    "english_cookie_name": "", 
+    "english_cookie_value": "", 
+    "english_url": "http://www.crazydeals.com/", 
+    "english_url_args": "___store=default", 
+    "exclude_patterns": [
+        "/customer", 
+        "/about-us", 
+        "/help-center", 
+        "/return-policy", 
+        "/payment-terms"
+    ], 
+    "follow_patterns": [], 
+    "id": "crazydeals", 
+    "js_disable_patterns": [], 
+    "js_enable_patterns": [], 
+    "js_enabled": false, 
+    "links_to_follow": "patterns", 
+    "local_images": false, 
+    "respect_nofollow": false, 
+    "start_urls": [
+        {
+            "url": "http://www.crazydeals.com/shop-all-categories", 
+            "type": "url"
+        }
+    ], 
+    "template_names": [
+        "a0fb-47a2-be05"
+    ], 
+    "use_currency_config": true, 
+    "use_currency_cookies": false, 
+    "use_language_config": true, 
+    "use_language_cookies": false
+}

@@ -1,22 +1,22 @@
 {
     "allowed_domains": [], 
-    "arabic_cookie_name": "eg_website#lang", 
-    "arabic_cookie_value": "ar-EG", 
-    "arabic_url": "https://eg.oriflame.com/", 
-    "arabic_url_args": "sc_lang=ar-EG", 
+    "arabic_cookie_name": "store_language", 
+    "arabic_cookie_value": "ar", 
+    "arabic_url": "https://www.nefsak.com/", 
+    "arabic_url_args": "", 
     "country_code": "eg", 
     "currency_code": "EGP", 
     "currency_cookie_name": "", 
     "currency_cookie_value": "", 
-    "english_cookie_name": "eg_website#lang", 
-    "english_cookie_value": "en-EG", 
-    "english_url": "https://eg.oriflame.com/en/", 
+    "english_cookie_name": "store_language", 
+    "english_cookie_value": "en", 
+    "english_url": "https://www.nefsak.com/", 
     "english_url_args": "", 
     "exclude_patterns": [
-        "(.*)(utils|customer-service|tab=1|_DAV=ar)(.*)"
+        "(https://www.nefsak.com/)(.*)(products_map.php|search.php|survey.php|popup_magnifier.php|sort_direction|register|image.php|terms|Bank-Transfer|about_our_site|privacy_statement|comparison_list.php|&amp;)(.*)"
     ], 
     "follow_patterns": [], 
-    "id": "oriflame", 
+    "id": "nefsak", 
     "js_disable_patterns": [], 
     "js_enable_patterns": [], 
     "js_enabled": false, 
@@ -25,13 +25,12 @@
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "https://eg.oriflame.com/en/brands", 
+            "url": "https://www.nefsak.com/home.php", 
             "type": "url"
         }
     ], 
     "template_names": [
-        "88b6-403e-aa54", 
-        "3cc0-4e94-9afa"
+        "5380-4900-8a8c"
     ], 
     "use_currency_config": true, 
     "use_currency_cookies": false, 

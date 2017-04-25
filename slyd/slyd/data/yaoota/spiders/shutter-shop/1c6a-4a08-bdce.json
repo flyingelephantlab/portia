@@ -1,0 +1,272 @@
+{
+    "extractors": {}, 
+    "id": "1c6a-4a08-bdce", 
+    "name": "GoPro HERO Black - Shutter Shop", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "fb5d-4230-b557", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": "#content > .col-full", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".product_title"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "aa2d-45dc-a76d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "1477-4beb-b88f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .summary > .product_title", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".woocommerce-breadcrumb > a:nth-child(3)"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "7350-4dec-b70a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fa2-411c-b78e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fb04-4890-bb85", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .woocommerce-breadcrumb > a:nth-child(3)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-breadcrumb \")]/a[3]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "p.price > .woocommerce-Price-amount"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "68ca-4662-bf41": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c0ad-48c6-99dc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .summary > div:nth-child(2) > .price > .woocommerce-Price-amount", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" price \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Price-amount \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".summary > div:nth-child(5)"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "6ac8-42ad-b1fa": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "913f-404e-9399", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ff2c-4e4c-969f", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .summary > div:nth-child(5)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/div[5]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".attachment-shop_single"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "47c6-46eb-bcfa": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "15f8-4f67-b519", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9697-445a-b0cd", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .images > .woocommerce-main-image > .attachment-shop_single", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" images \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-main-image \")]/*[contains(concat(\" \", @class, \" \"), \" attachment-shop_single \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a.first:nth-child(1) > .attachment-shop_thumbnail"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "584c-480b-be2a": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "7dba-4300-9b51", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e11e-4e75-8d96", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .images > .thumbnails > a:nth-child(1) > .attachment-shop_thumbnail", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" images \")]/*[contains(concat(\" \", @class, \" \"), \" thumbnails \")]/a[1]/*[contains(concat(\" \", @class, \" \"), \" attachment-shop_thumbnail \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".sku"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "ea0d-437a-be0e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2703-4568-b087", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "eafa-45b8-b553", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .summary > .product_meta > .sku_wrapper > .sku", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" sku_wrapper \")]/*[contains(concat(\" \", @class, \" \"), \" sku \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#tab-description"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "ecbb-4225-924e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f110-4bde-94d8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b181-4e11-8d90", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .woocommerce-tabs > .woocommerce-Tabs-panel--description", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-tabs \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Tabs-panel--description \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".single_add_to_cart_button"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "e320-4978-953b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d453-49ef-8c1b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .summary > .cart > .single_add_to_cart_button", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" cart \")]/*[contains(concat(\" \", @class, \" \"), \" single_add_to_cart_button \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".wb-posted_in:nth-child(4) > a"
+                    ], 
+                    "container_id": "fb5d-4230-b557", 
+                    "data": {
+                        "eb61-422a-b95a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "da40-480b-bb8a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "02e8-4d84-8e66", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .col-full > .content-area > .site-main > .post-3871 > .summary > .product_meta > .wb-posted_in > a", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" col-full \")]/*[contains(concat(\" \", @class, \" \"), \" content-area \")]/*[contains(concat(\" \", @class, \" \"), \" site-main \")]/*[contains(concat(\" \", @class, \" \"), \" post-3871 \")]/*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" wb-posted_in \")]/a"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "shutter-shop", 
+    "url": "https://shuttershopegypt.com/shop-2/gopro-hero5-black/", 
+    "version": "0.13.0b32"
+}

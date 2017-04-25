@@ -2,7 +2,7 @@
     "allowed_domains": [], 
     "arabic_cookie_name": "", 
     "arabic_cookie_value": "", 
-    "arabic_url": "https://www.jumia.com.eg/ar/", 
+    "arabic_url": "", 
     "arabic_url_args": "", 
     "country_code": "eg", 
     "currency_code": "EGP", 
@@ -10,13 +10,15 @@
     "currency_cookie_value": "", 
     "english_cookie_name": "", 
     "english_cookie_value": "", 
-    "english_url": "https://www.jumia.com.eg/", 
+    "english_url": "", 
     "english_url_args": "", 
-    "exclude_patterns": [
-        "(.*)(/ar/|[a-zA-Z0-9]--[a-zA-Z0-9]|setDevice|&amp;|/ajax/|/charmaine/|/baby-club/|shipping_and_returns|payment|privacy_policy/size_guide|affiliate-program|help|faq|about|terms-of-use|jumia_on_press|testimonials|jumia_people|join_us|brands|tv-ad|lang=ar_EG|token=|/customer|(https:.*https:))(.*)|(.*)^(?!((http:\\/\\/|https:\\/\\/)?(www|eg))|\\.).*\\.jumia\\.com(.*)"
+    "exclude_patterns": [], 
+    "follow_patterns": [
+        "/product/", 
+        "/product-category/", 
+        "/page/"
     ], 
-    "follow_patterns": [], 
-    "id": "jumia", 
+    "id": "techmartme", 
     "js_disable_patterns": [], 
     "js_enable_patterns": [], 
     "js_enabled": false, 
@@ -25,18 +27,15 @@
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "https://www.jumia.com.eg/", 
+            "url": "http://www.techmartme.com/shop/", 
             "type": "url"
         }
     ], 
     "template_names": [
-        "fb26-47e6-9821", 
-        "1236-4282-b18e", 
-        "0062-4a4e-9e4d", 
-        "d952-4d4d-87c8"
+        "aa87-4e46-945f"
     ], 
     "use_currency_config": true, 
     "use_currency_cookies": false, 
-    "use_language_config": true, 
+    "use_language_config": false, 
     "use_language_cookies": false
 }

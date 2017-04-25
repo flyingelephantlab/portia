@@ -4,7 +4,7 @@
     "arabic_cookie_value": "", 
     "arabic_url": "", 
     "arabic_url_args": "", 
-    "country_code": "", 
+    "country_code": "ke", 
     "currency_code": "EGP", 
     "currency_cookie_name": "", 
     "currency_cookie_value": "", 
@@ -14,21 +14,21 @@
     "english_url_args": "", 
     "exclude_patterns": [], 
     "follow_patterns": [], 
-    "id": "ikea", 
+    "id": "kilimall", 
     "js_disable_patterns": [], 
     "js_enable_patterns": [], 
     "js_enabled": false, 
-    "links_to_follow": "all", 
+    "links_to_follow": "auto", 
     "local_images": false, 
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "http://www.ikea.com/eg/en/", 
+            "url": "http://www.kilimall.co.ke/", 
             "type": "url"
         }
     ], 
     "template_names": [
-        "9b55-407e-8a06"
+        "ecc1-4f8a-b511"
     ], 
     "use_currency_config": false, 
     "use_currency_cookies": false, 

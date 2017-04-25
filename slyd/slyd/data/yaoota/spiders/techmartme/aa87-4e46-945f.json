@@ -1,0 +1,200 @@
+{
+    "extractors": {}, 
+    "id": "aa87-4e46-945f", 
+    "name": "beats by drdre Studio - TechMart Technology Stor", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "b9b7-40b7-a22c", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "bb9f-4299-a5e5", 
+                    "selector": ".xlarge-10", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".product_title"
+                    ], 
+                    "container_id": "b9b7-40b7-a22c", 
+                    "data": {
+                        "04bc-480b-beae": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0592-4050-9370", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4c37-4db6-8506", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".xlarge-10 > .single-product-infos > .product_infos > .product_title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" xlarge-10 \")]/*[contains(concat(\" \", @class, \" \"), \" single-product-infos \")]/*[contains(concat(\" \", @class, \" \"), \" product_infos \")]/*[contains(concat(\" \", @class, \" \"), \" product_title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".zoom > .attachment-shop_single"
+                    ], 
+                    "container_id": "b9b7-40b7-a22c", 
+                    "data": {
+                        "af30-430f-97c9": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "15f8-4f67-b519", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "451d-45f1-955b", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".xlarge-10 > .single-product-images > .images > .product_images > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .easyzoom > .zoom > .attachment-shop_single", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" xlarge-10 \")]/*[contains(concat(\" \", @class, \" \"), \" single-product-images \")]/*[contains(concat(\" \", @class, \" \"), \" images \")]/*[contains(concat(\" \", @class, \" \"), \" product_images \")]/*[contains(concat(\" \", @class, \" \"), \" owl-carousel \")]/*[contains(concat(\" \", @class, \" \"), \" owl-stage-outer \")]/*[contains(concat(\" \", @class, \" \"), \" owl-stage \")]/*[contains(concat(\" \", @class, \" \"), \" owl-item \")]/*[contains(concat(\" \", @class, \" \"), \" easyzoom \")]/*[contains(concat(\" \", @class, \" \"), \" zoom \")]/*[contains(concat(\" \", @class, \" \"), \" attachment-shop_single \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "p.price > .woocommerce-Price-amount"
+                    ], 
+                    "container_id": "b9b7-40b7-a22c", 
+                    "data": {
+                        "aae7-40ca-9131": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c997-4e42-a940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0083-461b-9ebc", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".xlarge-10 > .single-product-infos > .product_infos > div:nth-child(4) > .price > .woocommerce-Price-amount", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" xlarge-10 \")]/*[contains(concat(\" \", @class, \" \"), \" single-product-infos \")]/*[contains(concat(\" \", @class, \" \"), \" product_infos \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" price \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-Price-amount \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".single_add_to_cart_button"
+                    ], 
+                    "container_id": "b9b7-40b7-a22c", 
+                    "data": {
+                        "b3f8-4657-bb5c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "045b-406b-b52e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d4a5-4e19-bf71", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".xlarge-10 > .single-product-infos > .product_infos > .cart > .single_add_to_cart_button", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" xlarge-10 \")]/*[contains(concat(\" \", @class, \" \"), \" single-product-infos \")]/*[contains(concat(\" \", @class, \" \"), \" product_infos \")]/*[contains(concat(\" \", @class, \" \"), \" cart \")]/*[contains(concat(\" \", @class, \" \"), \" single_add_to_cart_button \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".sku"
+                    ], 
+                    "container_id": "b9b7-40b7-a22c", 
+                    "data": {
+                        "f755-4ed7-b5ba": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2703-4568-b087", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4131-4df4-86ed", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".xlarge-10 > .summary-description > .product_meta > .sku_wrapper > .sku", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" xlarge-10 \")]/*[contains(concat(\" \", @class, \" \"), \" summary-description \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" sku_wrapper \")]/*[contains(concat(\" \", @class, \" \"), \" sku \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#tab-description"
+                    ], 
+                    "container_id": "b9b7-40b7-a22c", 
+                    "data": {
+                        "8211-4748-ba3c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f110-4bde-94d8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7419-459f-a5a9", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".xlarge-10 > .summary-description > .woocommerce-tabs > div:nth-child(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" xlarge-10 \")]/*[contains(concat(\" \", @class, \" \"), \" summary-description \")]/*[contains(concat(\" \", @class, \" \"), \" woocommerce-tabs \")]/div[2]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".posted_in > a:nth-child(1)"
+                    ], 
+                    "container_id": "b9b7-40b7-a22c", 
+                    "data": {
+                        "c081-451d-9ca4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6fa2-411c-b78e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3570-48be-bdd4", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".xlarge-10 > .summary-description > .product_meta > .posted_in > a:nth-child(1)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" xlarge-10 \")]/*[contains(concat(\" \", @class, \" \"), \" summary-description \")]/*[contains(concat(\" \", @class, \" \"), \" product_meta \")]/*[contains(concat(\" \", @class, \" \"), \" posted_in \")]/a[1]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "bb9f-4299-a5e5", 
+    "spider": "techmartme", 
+    "url": "http://www.techmartme.com/product/beats-by-dr-dry-studio-orange/", 
+    "version": "0.13.0b32"
+}
