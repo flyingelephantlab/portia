@@ -77,6 +77,7 @@ class SpiderRoute(ProjectDownloadMixin, BaseProjectModelRoute):
     @detail_route(methods=['post'])
     def schedule(self, *args, **kwargs):
         spider_id = self.data['data']['id']
+        #curl http://USERNAME:PASSWD@192.168.33.20:6700/schedule.json -d project='kipp_base' -d spider='kipp_AI_spider' -d merchant_name='ariika'
         schedule_data = self._schedule_data(spider_id, self.data)
         request = requests.post(settings.SCHEDULE_URL, data=schedule_data)
         if request.status_code != 200:
