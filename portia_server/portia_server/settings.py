@@ -106,7 +106,12 @@ USE_TZ = True
 
 PORTIA_STORAGE_BACKEND = 'storage.backends.FsStorage'
 
-SCHEDULE_URL = 'http://localhost:6800/schedule.json'
+SCHEDULE_URL = '192.168.33.132:6700/schedule.json'
+CANCEL_SCHEDUELE_URL = '192.168.33.132:6700/cancel.json'
+SCRAPYD_USERNAME = '3eboo'
+SCRAPYD_PASSWORD = '123456'
+KIPP_DEFAULT_PROJECT = 'kipp_base'
+KIPP_PORTIA_SPIDER = 'kipp_ai_spider'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
