@@ -81,7 +81,7 @@ export default BaseModel.extend({
 
     // country and currency codes
     countryCode: DS.attr('string', {
-        defaultValue: 'EG'
+        defaultValue: ''
     }),
 
     currencyCode: DS.attr('string', {
@@ -142,5 +142,20 @@ export default BaseModel.extend({
     currencyCookieValue: DS.attr('string', {
         defaultValue: ''
     }),
+
+    user: DS.attr('string', {
+        defaultValue: ''
+    }),
+
+    userAlias: Ember.computed('username', 'user', {
+         get() {
+             return this.get('user') || this.get('username');
+         },
+         set(key, value) {
+             this.set('user', value);
+             return value;
+         }
+     }),
+
 
 });

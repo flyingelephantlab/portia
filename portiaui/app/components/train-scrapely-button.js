@@ -5,22 +5,11 @@ export default Ember.Component.extend({
     api: Ember.inject.service(),
     notificationManager: Ember.inject.service(),
     hasSpider: computed.bool('spider'),
+    isShowingModal: false,
 
     actions: {
-        trainSpider(spider) {
-            this.get('api').post('train', {
-                model: spider,
-                jsonData: {data: {type: 'spiders', id: spider.id}}
-            }).then(() => {
-                this.get('notificationManager').showNotification(
-                    'Your spider has been trained successfully');
-            }, data => {
-                let error = data.errors[0];
-                if (error.status > 499) {
-                    throw data;
-                }
-                this.get('notificationManager').showNotification(error.title, error.detail);
-            });
-        }
+        toggleModal: function() {
+            this.toggleProperty('isShowingModal');
+        },
     }
 });

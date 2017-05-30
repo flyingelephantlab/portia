@@ -29,5 +29,7 @@ docs/_build
 # Development Databases
 *.sqlite*
 
-# Default Portia data directory
-slyd/slyd/data
+# Project data gernal files
+slyd/slyd/data/yaoota/items.json
+slyd/slyd/data/yaoota/extractors.json
+slyd/slyd/data/yaoota/project.json
