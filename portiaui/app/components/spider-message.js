@@ -7,13 +7,13 @@ export default Ember.Component.extend({
     hasSpider: computed.bool('currentSpider'),
 
     actions: {
-        runSpider(spider) {
-            this.get('api').post('schedule', {
+        trainSpider(spider) {
+            this.get('api').post('train', {
                 model: spider,
                 jsonData: {data: {type: 'spiders', id: spider.id}}
             }).then(() => {
                 this.get('notificationManager').showNotification(
-                    'Your spider has been scheduled successfully');
+                    'Your spider has been trained successfully');
             }, data => {
                 let error = data.errors[0];
                 if (error.status > 499) {

@@ -28,3 +28,35 @@ For more detailed instructions, and alternatives using Vagrant, see the [Install
 
 Documentation can be found [here](http://portia.readthedocs.org/en/latest/index.html). Source files can be found in the ``docs`` directory.
 
+
+Getting started running Portia with docker
+==========================================
+
+To run Portia first time using Docker.
+
+First Install Docker
+https://docs.docker.com/engine/installation/linux/ubuntu/#install-using-the-repository
+
+```
+git clone https://github.com/flyingelephantlab/portia.git
+
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+sudo npm install -g bower
+sudo npm install -g ember-cli
+
+cd portia/portiaui
+npm install && bower install
+cd node_modules/ember-cli && npm install
+
+cd ../../  # (inside portiaui)
+ember build [-e production]
+
+cd ../  # (portia)
+sudo docker build -t portia .
+
+Then everytime you made a change you need to build ember and run docker
+
+sudo docker run -i -t --rm -v <current-path>/portia/slyd/slyd/data:/app/slyd/slyd/data/projects:rw -v <current-path>/portia/portiaui/dist:/app/portiaui/dist -p 9001:9001 portia
+```
