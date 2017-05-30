@@ -22,42 +22,10 @@ def train_scrapely(storage, model, username):
     :param model:
     :return:
     """
-    # samples = load_samples(storage, model)
-    # scrapely_templates = generate_scrapely_templates(samples)
-    # save_scrapely_object(spider_name=model.id, country_code=model.country_code, scrapely_templates=scrapely_templates)
     merchant_settings = create_kipp_setting(model)
     save_kipp_config(spider_name=model.id, country_code=model.country_code, merchant_settings=merchant_settings)
     save_portia_spider(spider_name=model.id, country_code=model.country_code)
     publish_kipp_settings(username=username, country_code=model.country_code, spider_name=model.id)
-
-
-def load_samples(storage, model):
-    samples = []
-    for sample in model.samples:
-        json_sample = json.loads(sample.dumps())
-        json_sample['original_body'] = sample.original_body.html
-        json_sample['rendered_body'] = sample.rendered_body.html
-        annotated_template = get_annotated_template(json_sample, model)
-        samples.append(annotated_template)
-    return samples
-
-
-def get_annotated_template(template, model):
-    if (template.get('version', '0.12.0') >= '0.13.0' and not template.get('annotated')):
-        using_js = model.js_enabled
-        template['body'] = 'rendered_body' if using_js else 'original_body'
-        template = build_sample(template)
-    return template
-
-
-def build_sample(sample, legacy=False):
-    from slybot.plugins.scrapely_annotations.builder import Annotations
-    data = sample.get('plugins', {}).get('annotations-plugin')
-    if data:
-        Annotations().save_extraction_data(data, sample, legacy=legacy)
-    sample['page_id'] = sample.get('page_id') or sample.get('id') or ""
-    sample['annotated'] = True
-    return sample
 
 
 def generate_scrapely_templates(templates):
@@ -97,11 +65,11 @@ def save_portia_spider(spider_name, country_code):
                 shutil.copy2(s, d)
 
     kipp_merchant_settings_dir = KIPP_MERCHANT_SETTINGS_DIR.format(country_code=country_code, spider_name=spider_name)
-    merchant_init_path = kipp_merchant_settings_dir + '/' + '__init__.py'
+    merchant_init_path = os.path.join(kipp_merchant_settings_dir, '__init__.py')
     if not os.path.exists(kipp_merchant_settings_dir):
         os.makedirs(kipp_merchant_settings_dir)
-        f = open(merchant_init_path, mode='w')
-        f.close()
+        with open(merchant_init_path, mode='w') as f:
+            f.write("/n")
 
     portia_spider_name = "%s.json" % spider_name
     portia_spider_file = os.path.join(PORTIA_SPIDERS_DIR, portia_spider_name)
@@ -144,7 +112,7 @@ def save_kipp_config(spider_name, country_code, merchant_settings):
     kipp_merchant_settings_dir = KIPP_MERCHANT_SETTINGS_DIR.format(country_code=country_code, spider_name=spider_name)
     if not os.path.exists(kipp_merchant_settings_dir):
         os.makedirs(kipp_merchant_settings_dir)
-    merchant_file_name = "%s.py" % spider_name
+    merchant_file_name = "%s_ai.py" % spider_name
     merchant_file_path = os.path.join(kipp_merchant_settings_dir, merchant_file_name)
     with open(merchant_file_path, 'w') as f:
         f.write(merchant_settings)
@@ -268,8 +236,8 @@ def publish_kipp_settings(username, country_code, spider_name):
     kipp_country_setting_dir = KIPP_MERCHANT_SETTINGS_DIR.format(username=username,
                                                                  country_code=country_code,
                                                                  spider_name=spider_name)
-    kipp_config_file_path = kipp_country_setting_dir + '/%s.py' % spider_name
-    portia_config_file_path = kipp_country_setting_dir + '/%s.json' % spider_name
+    kipp_config_file_path = os.path.join(kipp_country_setting_dir, '%s_ai.py' % spider_name)
+    portia_config_file_path = os.path.join(kipp_country_setting_dir, '/%s.json' % spider_name)
     temlate_dir = os.path.join(kipp_country_setting_dir, "templates")
     if os.path.exists(kipp_config_file_path) and os.path.exists(portia_config_file_path):
         #TODO: try and catch exceptions
