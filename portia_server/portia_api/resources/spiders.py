@@ -24,7 +24,7 @@ from portia_orm.models import Spider
 class SpiderRoute(ProjectDownloadMixin, BaseProjectModelRoute):
 
 
-  scrapyjob = None
+  scrapyjob = {}
   lookup_url_kwarg = 'spider_id'
   lookup_value_regex = '[^/]+'
   default_model = Spider
@@ -91,8 +91,7 @@ class SpiderRoute(ProjectDownloadMixin, BaseProjectModelRoute):
       settings.SCRAPYD_USERNAME, settings.SCRAPYD_PASSWORD, settings.SCHEDULE_URL,
       settings.KIPP_DEFAULT_PROJECT, settings.KIPP_PORTIA_SPIDER, merchant_name, merchant_country)
     request = requests.post(scheduele_request)
-    print request.json()['jobid']
-    self.scrapyjob = request.json()['jobid']
+    self.scrapyjob[instance.id] = request.json()['jobid']
     if request.status_code != 200:
       raise JsonApiGeneralException(
         request.status_code, request.content)
@@ -110,7 +109,7 @@ class SpiderRoute(ProjectDownloadMixin, BaseProjectModelRoute):
     merchant_name = instance.id
     cancel_request = 'http://{}:{}@{}?project={}&jobid={}'.format(
       settings.SCRAPYD_USERNAME, settings.SCRAPYD_PASSWORD, settings.CANCEL_SCHEDUELE_URL,
-      settings.KIPP_DEFAULT_PROJECT, self.scrapyjob)
+      settings.KIPP_DEFAULT_PROJECT, self.scrapyjob[instance.id])
     request = requests.post(cancel_request)
     print request.reason
     if request.status_code != 200:
