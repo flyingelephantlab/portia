@@ -1,0 +1,12 @@
+{{#tooltip-container tooltipFor='startcrawl-spider-button' text='Crawl this spider.' tooltipContainer='body'}}
+    {{list-item-spider-startcrawl action=(action 'toggleModal' spider)}}
+{{/tooltip-container}}
+
+
+{{#if isShowingModal}}
+    {{#modal-confirm-startcrawl close='toggleModal' translucentOverlay=true}}
+          <h3 style="margin:15px;">Are you sure you want to crawl this spider?</h3>
+          {{do-startcrawl-button spider=spider}}
+          <button {{action 'toggleModal'}} style="margin: auto; text-align: center;">Close</button>
+    {{/modal-confirm-startcrawl}}
+{{/if}}

@@ -21,6 +21,22 @@ export default Ember.Component.extend({
                 }
                 this.get('notificationManager').showNotification(error.title, error.detail);
             });
+        },
+        startcrawlSpider(spider) {
+            this.get('api').post('start_crawl', {
+                model: spider,
+                jsonData: {data: {type: 'spiders', id: spider.id}}
+            }).then(() => {
+                this.get('notificationManager').showNotification(
+                    'Your spider is crawling successfully');
+            }, data => {
+                let error = data.errors[0];
+                if (error.status > 499) {
+                    throw data;
+                }
+                this.get('notificationManager').showNotification(error.title, error.detail);
+            });
         }
     }
+
 });

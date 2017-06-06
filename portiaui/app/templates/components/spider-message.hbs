@@ -2,4 +2,7 @@
     {{#tooltip-container tooltipFor='run-spider-button' text='Train this spider.' tooltipContainer='body'}}
         {{list-item-icon id='run-spider-button' icon='play' action=(action 'trainSpider' currentSpider)}}
     {{/tooltip-container}}
+    {{#tooltip-container tooltipFor='crawl-spider-button' text='Crawl this spider.' tooltipContainer='body'}}
+        {{list-item-icon id='crawl-spider-button' icon='play' action=(action 'startcrawlSpider' currentSpider)}}
+    {{/tooltip-container}}
 {{/if}}
