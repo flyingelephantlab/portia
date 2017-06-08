@@ -36,6 +36,21 @@ export default Ember.Component.extend({
                 }
                 this.get('notificationManager').showNotification(error.title, error.detail);
             });
+        },
+        cancelcrawlSpider(spider) {
+            this.get('api').post('cancel_crawl', {
+                model: spider,
+                jsonData: {data: {type: 'spiders', id: spider.id}}
+            }).then(() => {
+                this.get('notificationManager').showNotification(
+                    'Your spider has stopped crawling');
+            }, data => {
+                let error = data.errors[0];
+                if (error.status > 499) {
+                    throw data;
+                }
+                this.get('notificationManager').showNotification(error.title, error.detail);
+            });
         }
     }
 

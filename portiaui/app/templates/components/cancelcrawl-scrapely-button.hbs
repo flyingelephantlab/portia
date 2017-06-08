@@ -1,0 +1,12 @@
+{{#tooltip-container tooltipFor='cancelcrawl-spider-button' text='Cancel Crawl.' tooltipContainer='body'}}
+    {{list-item-spider-cancelcrawl action=(action 'toggleModal' spider)}}
+{{/tooltip-container}}
+
+
+{{#if isShowingModal}}
+    {{#modal-confirm-cancelcrawl close='toggleModal' translucentOverlay=true}}
+          <h3 style="margin:15px;">Are you sure you want to cancel crawling?</h3>
+          {{do-cancelcrawl-button spider=spider}}
+          <button {{action 'toggleModal'}} style="margin: auto; text-align: center;">Close</button>
+    {{/modal-confirm-cancelcrawl}}
+{{/if}}

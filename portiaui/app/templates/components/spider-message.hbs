@@ -5,4 +5,7 @@
     {{#tooltip-container tooltipFor='crawl-spider-button' text='Crawl this spider.' tooltipContainer='body'}}
         {{list-item-icon id='crawl-spider-button' icon='play' action=(action 'startcrawlSpider' currentSpider)}}
     {{/tooltip-container}}
+    {{#tooltip-container tooltipFor='cancel-spider-button' text='Cancel Crawl.' tooltipContainer='body'}}
+        {{list-item-icon id='cancel-spider-button' icon='play' action=(action 'cancelcrawlSpider' currentSpider)}}
+    {{/tooltip-container}}
 {{/if}}
